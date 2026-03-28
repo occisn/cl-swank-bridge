@@ -6,7 +6,7 @@ This project lets Claude Code (or similar LLM with a CLI) **talk to a live Commo
 
 **Why?** Claude Code runs in the terminal. Common Lisp development happens in Emacs + SLIME, centered on a live REPL. This bridge connects the two, so Claude Code can build, test, and interact with your running Lisp the same way you do -- through Swank.
 
-**The bridge is a single file: [`swank-eval.py`](swank-eval.py).** Drop it into any Common Lisp project and you're set. The rest of this repo (the `.asd` files, `src/`, `tests/`) is a minimal demo project for illustration only.
+**The bridge is a single file: [`swank-eval.py`](swank-eval.py).** Drop it into any Common Lisp project, inform the LLM, and you're set. The rest of this repo (the `.asd` files, `src/`, `tests/`) is a minimal demo project for illustration only.
 
 ## How It Works
 
